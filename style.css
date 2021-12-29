@@ -1,0 +1,64 @@
+.list-item{
+    display: inline-block;
+    margin-right: 20px;
+}
+.list-left{
+    text-align: left;
+}
+.list-center{
+    text-align: center;
+}
+.list-right{
+    text-align: right;
+}
+.list-link{
+    text-decoration: none;
+    color: black;
+}
+.font-popins{
+    font-family: 'Poppins', sans-serif;
+}
+@font-face {
+    font-family: "Akronim";
+    src: url("Akronim-Regular.woff") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+.font-akronim{
+    font-family: "Akronim";
+}
+.text-left{
+    background-color: chartreuse;
+    text-align: left;
+    border-radius: 10px;
+}
+.text-center{
+    background-color: palevioletred;
+    text-align: center;
+    border-radius: 10px;
+}
+.text-right{
+    background-color: gainsboro;
+    text-align: right;
+    border-radius: 10px;
+}
+.hover-link{
+    text-decoration: none;
+    color: black;
+    transition: 2s;
+}
+.hover-link-red:hover{
+    color: red;
+}
+.hover-link-blue:hover{
+    color: blue;
+}
+.hover-link-green:hover{
+    color: green;
+}
+.hover-link-yellow:hover{
+    color: yellow;
+}
+.hover-link-grey:hover{
+    color: grey;
+}
